@@ -1,0 +1,33 @@
+:root {
+  --blue-700: #00447c;
+  --blue-800: #00294d;
+  --primary: #fff51a;
+  --secondary: #0760ac;
+  --white: #fff;
+  --yellow-600: #e6dc00;
+}
+
+.title {
+  color: var(--white);
+  font-size: 7.5rem;
+}
+
+.title-secondary {
+  font-size: 4rem;
+  margin-bottom: 48px;
+}
+
+.title-tertiary {
+  font-size: 3rem;
+}
+
+.title-secondary,
+.title-tertiary {
+  color: var(--primary);
+}
+
+.title,
+.title-secondary,
+.title-tertiary {
+  font-family: 'Edo SZ', sans-serif;
+}
