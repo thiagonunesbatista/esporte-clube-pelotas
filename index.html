@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
 
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/styles/global.css" />
     <link rel="stylesheet" href="assets/styles/reset.css" />
     <link rel="stylesheet" href="assets/styles/pages/home.css" />
+    <link rel="stylesheet" href="assets/styles/components/card.css" />
   </head>
   <body>
     <section class="partner">
@@ -45,9 +46,57 @@
         />
       </div>
 
-      <div>
-        <div>arquibancada</div>
-        <div>cadeira cativa</div>
+      <div class="partner__cards">
+        <div>
+          <img
+            class="card__stadium"
+            src="./assets/images/stadium/estadio-primario.svg"
+            alt="Desenho do Estádio Boca do Lobo"
+          />
+          <div class="card card--primary">
+            <p class="card__title">arquibancada</p>
+
+            <ul class="card__list">
+              <li class="card__item">
+                Acesso a arquibancada do estádio da Boca do Lobo em todos os
+                jogos na nossa casa
+              </li>
+              <li class="card__item">Desconto de 10% na LoboMania</li>
+              <li class="card__item">Sorteios mensais</li>
+            </ul>
+
+            <div class="card__footer">
+              <p class="card__price"><span>R$ 50,00 </span> / mês</p>
+              <a class="card__action" href="#">Me associar</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img
+            class="card__stadium"
+            src="./assets/images/stadium/estadio.svg"
+            alt="Desenho do Estádio Boca do Lobo"
+          />
+          <div class="card">
+            <p class="card__title">cadeira cativa</p>
+
+            <ul class="card__list">
+              <li class="card__item">
+                Acesso a arquibancada do estádio da Boca do Lobo em todos os
+                jogos na nossa casa
+              </li>
+              <li class="card__item">Acesso às cadeiras cativas</li>
+              <li class="card__item">Desconto de 10% na LoboMania</li>
+              <li class="card__item">Sorteios mensais</li>
+            </ul>
+
+            <div class="card__footer">
+              <p class="card__price"><span>R$ 100,00 </span> / mês</p>
+              <a class="card__action" href="#">Me associar</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

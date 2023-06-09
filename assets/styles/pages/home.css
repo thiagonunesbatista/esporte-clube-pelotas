@@ -32,8 +32,20 @@
   max-width: 500px;
 }
 
+.partner__cards {
+  display: grid;
+  gap: 12rem;
+  grid-template-columns: repeat(2, minmax(auto, 400px));
+  margin-top: 200px;
+}
+
 @media (max-width: 767px) {
   .partner__motivation {
     flex-direction: column;
+  }
+
+  .partner__cards {
+    grid-template-columns: 1fr;
+    gap: 6rem;
   }
 }
