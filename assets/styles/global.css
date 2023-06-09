@@ -32,6 +32,11 @@
   font-family: 'Edo SZ', sans-serif;
 }
 
+p,
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media (max-width: 767px) {
   .title {
     font-size: 6.5rem;
