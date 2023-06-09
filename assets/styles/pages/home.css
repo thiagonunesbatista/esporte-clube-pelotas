@@ -76,6 +76,12 @@
   }
 
   .partner__motivation {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .partner__motivation {
     flex-direction: column;
   }
 
@@ -84,7 +90,7 @@
     gap: 6rem;
   }
 
-  .partner__motivation {
-    font-size: 1.25rem;
+  .partner__cards .card {
+    max-width: 400px;
   }
 }
