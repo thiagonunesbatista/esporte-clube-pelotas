@@ -1,3 +1,30 @@
+.stadium {
+  background-color: var(--blue-700);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.5rem;
+  padding: 3rem 1rem;
+}
+
+.stadium .title-secondary {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.stadium p {
+  color: var(--white);
+  font-size: 1.75rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 760px;
+  text-align: center;
+}
+
+.stadium iframe {
+  max-width: 100%;
+}
+
 .partner {
   background-color: var(--blue-800);
   display: flex;
@@ -40,6 +67,14 @@
 }
 
 @media (max-width: 767px) {
+  .stadium {
+    gap: 2.25rem;
+  }
+
+  .stadium p {
+    font-size: 1.25rem;
+  }
+
   .partner__motivation {
     flex-direction: column;
   }
@@ -47,5 +82,9 @@
   .partner__cards {
     grid-template-columns: 1fr;
     gap: 6rem;
+  }
+
+  .partner__motivation {
+    font-size: 1.25rem;
   }
 }

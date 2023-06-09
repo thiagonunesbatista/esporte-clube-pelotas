@@ -31,3 +31,18 @@
 .title-tertiary {
   font-family: 'Edo SZ', sans-serif;
 }
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 6.5rem;
+  }
+
+  .title-secondary {
+    font-size: 3rem;
+    margin-bottom: 24px;
+  }
+
+  .title-tertiary {
+    font-size: 2rem;
+  }
+}
