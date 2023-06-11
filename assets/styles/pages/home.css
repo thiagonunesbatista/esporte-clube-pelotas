@@ -1,3 +1,28 @@
+.home-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: var(--blue-300-75);
+  position: relative;
+  gap: 100px;
+}
+
+.home-header:before {
+  content: '';
+  position: absolute;
+  background-image: url('/assets/images/stadium/torcida-do-lobao.jpg');
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background-position: top;
+}
+
+.home-header img {
+  width: 250px;
+}
+
 .stadium {
   background-color: var(--blue-700);
   display: flex;
@@ -81,6 +106,20 @@
 }
 
 @media (max-width: 1023px) {
+  .home-header {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .home-header .title {
+    text-align: center;
+  }
+
+  .home-header img {
+    width: 100%;
+    max-width: 150px;
+  }
+
   .partner__motivation {
     flex-direction: column;
   }

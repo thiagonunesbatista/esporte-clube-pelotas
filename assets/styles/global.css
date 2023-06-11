@@ -1,4 +1,5 @@
 :root {
+  --blue-300-75: rgba(7, 96, 172, 0.75);
   --blue-300: #0760ac;
   --blue-700: #00447c;
   --blue-800: #00294d;
@@ -37,9 +38,9 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .title {
-    font-size: 6.5rem;
+    font-size: 4rem;
   }
 
   .title-secondary {
