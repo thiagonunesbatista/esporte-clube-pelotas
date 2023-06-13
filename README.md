@@ -2,6 +2,14 @@
 
 UI clone of the Esporte Clube Pelotas website built just wih HTML and CSS
 
+## 📱Screenshots
+
+<img src="https://github.com/thiagonunesbatista/esporte-clube-pelotas/blob/main/assets/images/screenshots/hero-header-ipad-mini.png?raw=true" alt="header screenshot" width="200">
+
+<img src="https://github.com/thiagonunesbatista/esporte-clube-pelotas/blob/main/assets/images/screenshots/partners-ipad-mini.png?raw=true" alt="become partner screenshot" width="200">
+
+<img src="https://github.com/thiagonunesbatista/esporte-clube-pelotas/blob/main/assets/images/screenshots/partner-2-ipad-mini.png?raw=true" alt="second become partner screenshot" width="200">
+
 ### Languages
 
 - CSS3
