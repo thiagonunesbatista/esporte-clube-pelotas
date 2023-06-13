@@ -1,6 +1,6 @@
 # ⚽ Esporte Clube Pelotas - Website clone
 
-UI clone of the Esporte Clube Pelotas website built just wih HTML and CSS
+UI clone of the Esporte Clube Pelotas website built just wih HTML and CSS. The website development was recorded on a [Youtube Playlist](https://www.youtube.com/playlist?list=PL_m43UlJFjF66gikpkW873bs9goNCrgfh), in the [Code to The Point Channel](https://www.youtube.com/@CodigoAoPonto).
 
 ## 📱Screenshots
 
